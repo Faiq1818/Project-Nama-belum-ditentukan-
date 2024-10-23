@@ -1,7 +1,12 @@
 export function Navbar() {
   return (
     <>
-      <nav>navbar</nav>
+      <nav className="navbar">
+        <div className="">
+          <img src="" alt="" />
+          haloo
+        </div>
+      </nav>
     </>
   );
 }
