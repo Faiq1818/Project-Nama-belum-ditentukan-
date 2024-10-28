@@ -1,7 +1,7 @@
 export function HeroSection() {
   return (
     <>
-      <p>dunia</p>
+      <div className="bg-black p-72"></div>
     </>
   );
 }
