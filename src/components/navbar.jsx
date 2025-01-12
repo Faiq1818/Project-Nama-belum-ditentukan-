@@ -2,12 +2,12 @@ export function Navbar() {
   return (
     <>
       <nav
-        className="navbar bg-black text-white text-center p-4"
+        className="navbar text-white text-center p-4"
         style={{ fontFamily: "flexiibm, sans-serif" }}
       >
         <div className="">
           <img src="" alt="" />
-          <p>Binary Go (temporary name)</p>
+          <p className=" text-3xl">Binary Go</p>
         </div>
       </nav>
     </>
