@@ -9,13 +9,13 @@ export function HeroSection() {
         className=" items-center justify-center flex-1 flex-col flex gap-11"
       >
         <EditSection />
-        <div className="justify-center flex font-semibold  text-5xl">
+        <div className="justify-center flex font-medium text-5xl">
           <BinaryGenerator />
         </div>
-
-        <button className="bg-white text-gray-900 rounded-md px-9 py-9">
-          halo
-        </button>
+        <input
+          className="hover:bg-slate-200 p-2 rounded-lg text-slate-900 focus:outline-none focus:ring-4 focus:ring-slate-500"
+          placeholder="Masukan Angka"
+        ></input>
       </div>
     </>
   );
